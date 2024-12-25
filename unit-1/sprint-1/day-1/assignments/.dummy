@@ -1,1 +1,9 @@
 
+// Example JavaScript program
+function logMessages() {
+    console.log("Message 1");
+    console.log("Message 2");
+    console.log("Message 3");
+}
+
+logMessages();
