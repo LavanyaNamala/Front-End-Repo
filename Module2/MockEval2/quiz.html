@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz Management</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="quiz-container">
+    <h2>Add New Quiz Question</h2>
+    <form id="quizForm">
+      <input type="text" id="question" placeholder="Question Statement" required><br>
+      <input type="text" id="optionA" placeholder="Option A" required><br>
+      <input type="text" id="optionB" placeholder="Option B" required><br>
+      <input type="text" id="optionC" placeholder="Option C" required><br>
+      <input type="text" id="optionD" placeholder="Option D" required><br>
+      <select id="correctOption">
+        <option value="A">Option A</option>
+        <option value="B">Option B</option>
+        <option value="C">Option C</option>
+        <option value="D">Option D</option>
+      </select><br>
+      <button type="submit">Create Question</button>
+    </form>
+    <div id="questionList"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
